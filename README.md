@@ -57,6 +57,22 @@ chatdocs download
 
 Now it can be run offline without internet connection.
 
+## Docker installation
+
+Build the docker container using the following commands
+
+```sh
+./build_chatdocs.sh
+```
+
+## Running the docker installation
+
+Build the docker container using the following commands
+
+```sh
+./run_chatdocs.sh 
+```
+
 ## Usage
 
 Add a directory containing documents to chat with using:
