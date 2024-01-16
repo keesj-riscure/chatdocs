@@ -4,7 +4,7 @@ from typing import Any, Dict, List
 from multiprocessing import Pool
 
 from tqdm import tqdm
-from langchain.document_loaders import (
+from langchain_community.document_loaders import (
     CSVLoader,
     EverNoteLoader,
     PDFMinerLoader,

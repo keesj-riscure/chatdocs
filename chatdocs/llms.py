@@ -2,7 +2,7 @@ from pathlib import Path
 from typing import Any, Callable, Dict, Optional
 
 from langchain.callbacks.base import BaseCallbackHandler
-from langchain.llms import CTransformers, HuggingFacePipeline
+from langchain_community.llms import CTransformers, HuggingFacePipeline
 from langchain.llms.base import LLM
 
 from .logger import logger
